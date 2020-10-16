@@ -18,7 +18,7 @@
   --font-var: bandeins_strangeSBdExfull;
   --font-varbold: bandeins_strangeBdExfull;
   --font-varhalf: bandeins_strangeBdExhalf;
-  --font-bold-SLO: MuseoModerno-Bold;
+  --font-semibold-SLO: MuseoModerno-SemiBold;
 }
 
 /* Dropdown Button */
@@ -79,7 +79,7 @@
 }
 
 #slo {
-  font-family: var(--font-bold-SLO);
+  font-family: var(--font-semibold-SLO);
 }
 
 .bodyl {
@@ -168,6 +168,13 @@
 @font-face {
     font-family: 'MuseoModerno-Bold';
     src: url('../css/fonts/MuseoModerno-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoModerno-SemiBold';
+    src: url('../css/fonts/MuseoModerno-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
