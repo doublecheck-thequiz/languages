@@ -19,6 +19,8 @@
   --font-varbold: bandeins_strangeBdExfull;
   --font-varhalf: bandeins_strangeBdExhalf;
   --font-semibold-SLO: MuseoModerno-SemiBold;
+  --font-semibold-NOTO: NotoSansDisplay-SemiBold;
+  --font-semibold-ARM: NotoSansArmenian-SemiBold;
 }
 
 /* Dropdown Button */
@@ -80,6 +82,12 @@
 
 #slo {
   font-family: var(--font-semibold-SLO);
+  font-size: 0.95rem;
+}
+
+#arm {
+  font-family: var(--font-semibold-ARM);
+  font-size: 0.95rem;
 }
 
 .bodyl {
@@ -175,6 +183,20 @@
 @font-face {
     font-family: 'MuseoModerno-SemiBold';
     src: url('../css/fonts/MuseoModerno-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansDisplay-SemiBold';
+    src: url('../css/fonts/NotoSansDisplay-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansArmenian-SemiBold';
+    src: url('../css/fonts/NotoSansArmenian-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
