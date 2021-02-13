@@ -85,6 +85,11 @@
   font-size: 0.95rem;
 }
 
+#cirillic {
+  font-family: var(--font-semibold-NOTO);
+  font-size: 0.95rem;
+}
+
 #arm {
   font-family: var(--font-semibold-ARM);
   font-size: 0.95rem;
